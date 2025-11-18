@@ -1,5 +1,7 @@
-body {
-  overflow-x: hidden;
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 .up {
   color: #f9bc6e;
@@ -539,13 +541,13 @@ button:hover {
 }
 .digcard {
   overflow-x: auto;
-  min-width: 340px;
+  min-width: 320px;
   position: relative;
   scrollbar-width: none;
 }
 .Social {
-  max-width: 400px;
-  max-height: 400px;
+  max-width: 350px;
+  max-height: 350px;
   margin: auto;
   object-fit: cover;
 }
@@ -554,6 +556,9 @@ button:hover {
   max-height: 400px;
   margin: auto;
   object-fit: cover;
+}
+.books{
+  max-width: 350px;
 }
 
 .maagin{

@@ -368,11 +368,17 @@ footer i:hover{
   width: 80%;
 }
 .books{
-  width: 600px;
+  max-width: 600px;
   transition: .5s;
 }
 .books:hover{
   scale: 1.02;
+}
+.drivepic{
+  object-fit: cover;
+  max-width: 500px;
+  max-height: 500px;
+  margin: auto;
 }
 .scroll img{
   height: 50px;
@@ -443,6 +449,9 @@ button:hover {
 #over{
   display: none ;
   transition: opacity 0.5s ease-in-out;
+}
+.maagin{
+  margin-top: 120px;
 }
 
 .spinner {
@@ -516,4 +525,38 @@ button:hover {
   iframe{
     max-width: 100%;
   }
+}
+
+
+
+
+
+@media (max-width: 480px) {
+   .digital {
+  background: #dfa762;
+  min-width: 340px;
+  height: 300px;
+}
+.digcard {
+  overflow-x: auto;
+  min-width: 340px;
+  position: relative;
+  scrollbar-width: none;
+}
+.Social {
+  max-width: 400px;
+  max-height: 400px;
+  margin: auto;
+  object-fit: cover;
+}
+.drivepic {
+  max-width: 400px;
+  max-height: 400px;
+  margin: auto;
+  object-fit: cover;
+}
+
+.maagin{
+  margin-top: 20px;
+}
 }

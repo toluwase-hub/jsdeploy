@@ -9,14 +9,14 @@ const totalCards = document.querySelectorAll(".digital").length;
 
 nextBtn.addEventListener("click", () => {
   if (counter < totalCards - visibleCards) {
-    counter++;
+    counter +=3;
     updateSliderPosition();
   }
 });
 
 prevBtn.addEventListener("click", () => {
   if (counter > 0) {
-    counter--;
+    counter -=3;
     updateSliderPosition();
   }
 });
